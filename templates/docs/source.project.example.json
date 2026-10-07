@@ -1,0 +1,12 @@
+{
+  "client": "<client>", "scenario": "S1", "languages": ["default"],
+  "stack": [["Framework","__NEXT_DATA__ present","Next.js App Router","Pages to App migration"]],
+  "tokens": [["color-primary","#<measured>","rgb(…) x41","measured"]],
+  "components": [["hero","block","block","image,video,split","default,scrolled","tone,spacing,variant","heading,body,image,link","home,about"]],
+  "blocks": [["hero","nestable","02 Layout","heading,body,image,link","tone,spacing,variant","section.items","home"]],
+  "risks": [["R1","Third-party fonts without licence",3,4,"PM","fidelity reference; next/font/google","open","A"]],
+  "urls": [["/","home","page","hero,feature_list,cta"]],
+  "sitemap_mermaid": "flowchart LR\n  Home --> Tours\n  Home --> About\n  Tours --> TourDetail",
+  "estimate_rows": [["block_static",8,3,5,8]],
+  "confidence_pct": 20
+}
