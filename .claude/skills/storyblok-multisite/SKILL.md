@@ -1,6 +1,6 @@
 ---
-name: storyblok-multisite
-description: Run several brand sites from one Storyblok space and one Next.js app: host-and-path to site registry, per-site folders and _config, shared _global stories, per-site themes, the environment-variable contract (bare hostnames, required-in-production list, monorepo .env loading), Netlify deployment and secrets-scan settings, site override for the primary URL, debugging "Not found" and server crashes on a deployed site, and a checklist for adding a site, language, market or theme. Use this skill whenever sites.config, PANACHE_SITE_HOST, PANACHE_SITES_ENABLED, PANACHE_SITE_OVERRIDE, Netlify, env vars, "Not found" on a deployed URL, adding a brand or site, theme per site, or "which site opens on the main URL" come up. Do not use for block design (storyblok-schema) or fetch internals (storyblok-core).
+name: "storyblok-multisite"
+description: "Run several brand sites from one Storyblok space and one Next.js app: host-and-path to site registry, per-site folders and _config, shared _global stories, per-site themes, the environment-variable contract (bare hostnames, required-in-production list, monorepo .env loading), Netlify deployment and secrets-scan settings, site override for the primary URL, debugging \"Not found\" and server crashes on a deployed site, and a checklist for adding a site, language, market or theme. Use this skill whenever sites.config, PANACHE_SITE_HOST, PANACHE_SITES_ENABLED, PANACHE_SITE_OVERRIDE, Netlify, env vars, \"Not found\" on a deployed URL, adding a brand or site, theme per site, or \"which site opens on the main URL\" come up. Do not use for block design (storyblok-schema) or fetch internals (storyblok-core)."
 ---
 
 # storyblok-multisite

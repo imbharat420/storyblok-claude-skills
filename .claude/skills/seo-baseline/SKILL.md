@@ -1,6 +1,6 @@
 ---
-name: seo-baseline
-description: Technical SEO baseline for a page set: titles, meta, canonical, hreflang and translated slugs, heading hierarchy, structured data validity, robots and sitemap, indexability, internal link graph, image alt coverage, Core Web Vitals proxies (LCP element, CLS sources, render-blocking scripts), and AI-search citability signals, each finding carrying a falsification test. Use this skill whenever SEO, search visibility, metadata, schema.org, sitemap, hreflang, ranking, or "will Google index this" is raised for a live site or a build, and as part of every S1 and S9 discovery. Do not use for content strategy or keyword research; those need external data.
+name: "seo-baseline"
+description: "Technical SEO baseline for a page set: titles, meta, canonical, hreflang and translated slugs, heading hierarchy, structured data validity, robots and sitemap, indexability, internal link graph, image alt coverage, Core Web Vitals proxies (LCP element, CLS sources, render-blocking scripts), and AI-search citability signals, each finding carrying a falsification test. Use this skill whenever SEO, search visibility, metadata, schema.org, sitemap, hreflang, ranking, or \"will Google index this\" is raised for a live site or a build, and as part of every S1 and S9 discovery. Do not use for content strategy or keyword research; those need external data."
 ---
 
 # seo-baseline

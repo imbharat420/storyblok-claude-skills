@@ -1,6 +1,6 @@
 ---
-name: behaviour-sweep
-description: Systematic discovery of every dynamic behaviour on a live page (scroll-triggered header changes, viewport-entry animations, auto-switching sidebars, scroll-snap, parallax, hover transitions, click-driven tabs and modals, time-driven carousels, responsive layout shifts) recorded with trigger, before/after states, transition and implementation mechanism. Use this skill whenever a page is being inspected for rebuild or documentation, before any section is extracted, and whenever the words animation, interaction, hover, scroll effect, sticky, carousel, tabs or "how does it behave" appear. Do not use on static screenshots or for pages behind login.
+name: "behaviour-sweep"
+description: "Systematic discovery of every dynamic behaviour on a live page (scroll-triggered header changes, viewport-entry animations, auto-switching sidebars, scroll-snap, parallax, hover transitions, click-driven tabs and modals, time-driven carousels, responsive layout shifts) recorded with trigger, before/after states, transition and implementation mechanism. Use this skill whenever a page is being inspected for rebuild or documentation, before any section is extracted, and whenever the words animation, interaction, hover, scroll effect, sticky, carousel, tabs or \"how does it behave\" appear. Do not use on static screenshots or for pages behind login."
 ---
 
 # behaviour-sweep

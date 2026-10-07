@@ -1,6 +1,6 @@
 ---
-name: storyblok-core
-description: Storyblok API mechanics that fail silently when wrong: Content Delivery API (CDA) versus Management API (MAPI) hosts, tokens and rate limits; header-based pagination totals; filter_query encoding; resolve_relations limits; cv cache versions; language and fallback_lang; MAPI throttling and 429 handling; never-auto-publish; three-step asset upload; the list filters MAPI ignores. Use this skill whenever code, scripts, curl or Postman calls touch api.storyblok.com or mapi.storyblok.com, whenever stories, datasources, components, assets, releases or spaces are read or written programmatically, or when someone asks how Storyblok fetching, tokens, pagination or publishing works. Do not use for content modelling decisions (storyblok-schema) or restore logic (storyblok-i18n-restore).
+name: "storyblok-core"
+description: "Storyblok API mechanics that fail silently when wrong: Content Delivery API (CDA) versus Management API (MAPI) hosts, tokens and rate limits; header-based pagination totals; filter_query encoding; resolve_relations limits; cv cache versions; language and fallback_lang; MAPI throttling and 429 handling; never-auto-publish; three-step asset upload; the list filters MAPI ignores. Use this skill whenever code, scripts, curl or Postman calls touch api.storyblok.com or mapi.storyblok.com, whenever stories, datasources, components, assets, releases or spaces are read or written programmatically, or when someone asks how Storyblok fetching, tokens, pagination or publishing works. Do not use for content modelling decisions (storyblok-schema) or restore logic (storyblok-i18n-restore)."
 ---
 
 # storyblok-core

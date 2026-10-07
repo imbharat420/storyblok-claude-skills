@@ -1,6 +1,6 @@
 ---
-name: storyblok-schema
-description: Derive and manage a Storyblok block schema as TypeScript pushed by the Storyblok CLI: turn a component inventory into content types, nestable blocks and universal blocks with semantic editor options only, allowlists per container, folder plan and language matrix; run CLI pull/push/diff against a dev space first; produce STORYBLOK_SCHEMA.md. Use this skill whenever blocks, components (Storyblok sense), content types, bloks fields, schema, block library, folders, datasources definitions, CLI push/pull, or "how should this be modelled in Storyblok" come up. Do not use for runtime fetching (storyblok-core) or content restore (storyblok-i18n-restore).
+name: "storyblok-schema"
+description: "Derive and manage a Storyblok block schema as TypeScript pushed by the Storyblok CLI: turn a component inventory into content types, nestable blocks and universal blocks with semantic editor options only, allowlists per container, folder plan and language matrix; run CLI pull/push/diff against a dev space first; produce STORYBLOK_SCHEMA.md. Use this skill whenever blocks, components (Storyblok sense), content types, bloks fields, schema, block library, folders, datasources definitions, CLI push/pull, or \"how should this be modelled in Storyblok\" come up. Do not use for runtime fetching (storyblok-core) or content restore (storyblok-i18n-restore)."
 ---
 
 # storyblok-schema

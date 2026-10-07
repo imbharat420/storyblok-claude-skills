@@ -1,6 +1,6 @@
 ---
-name: risk-and-compliance
-description: Pre-flight and ongoing risk control for web reverse-engineering and Storyblok delivery: reproduction rights and fidelity gating, credential exposure scanning and rotation, browser-automation limits, personal-data inventory, Storyblok token scoping, production write gates, and a data-breach runbook with the GDPR 72-hour notification clock. Use this skill before Gate A on every project, whenever a token, password, PAT, API key or personal data appears in any input, whenever a write to a live client system is proposed, and when anything "went wrong" with credentials or data. Do not use to give legal opinions; it produces checks, findings and escalation steps.
+name: "risk-and-compliance"
+description: "Pre-flight and ongoing risk control for web reverse-engineering and Storyblok delivery: reproduction rights and fidelity gating, credential exposure scanning and rotation, browser-automation limits, personal-data inventory, Storyblok token scoping, production write gates, and a data-breach runbook with the GDPR 72-hour notification clock. Use this skill before Gate A on every project, whenever a token, password, PAT, API key or personal data appears in any input, whenever a write to a live client system is proposed, and when anything \"went wrong\" with credentials or data. Do not use to give legal opinions; it produces checks, findings and escalation steps."
 ---
 
 # risk-and-compliance

@@ -1,6 +1,6 @@
 ---
-name: nextjs-storyblok
-description: Next.js App Router implementation patterns for a Storyblok-backed multi-site: tag-based fetching with next fetch cache, two route trees (production without bridge JS, /preview with draft mode), component registry by block name, revalidation webhook with HMAC, draft-mode propagation to nested fetches, per-breakpoint image loaders, middleware host-to-site routing, and the token-only styling gate. Use this skill whenever Next.js code is written or reviewed for a Storyblok project, including server/client component boundaries, metadata, generateStaticParams, route handlers, draft mode, ISR/revalidation, image optimisation, or "how do I render blocks". Do not use for Pages Router projects without adapting the route-tree notes, and not for non-Storyblok data layers.
+name: "nextjs-storyblok"
+description: "Next.js App Router implementation patterns for a Storyblok-backed multi-site: tag-based fetching with next fetch cache, two route trees (production without bridge JS, /preview with draft mode), component registry by block name, revalidation webhook with HMAC, draft-mode propagation to nested fetches, per-breakpoint image loaders, middleware host-to-site routing, and the token-only styling gate. Use this skill whenever Next.js code is written or reviewed for a Storyblok project, including server/client component boundaries, metadata, generateStaticParams, route handlers, draft mode, ISR/revalidation, image optimisation, or \"how do I render blocks\". Do not use for Pages Router projects without adapting the route-tree notes, and not for non-Storyblok data layers."
 ---
 
 # nextjs-storyblok

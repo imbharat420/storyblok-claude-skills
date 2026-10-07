@@ -1,6 +1,6 @@
 ---
-name: component-model
-description: Turn a research set (specs, behaviours, tokens) into a three-tier component library plan (tokens, developer primitives, editor blocks) with COMPONENT_INVENTORY.md, LAYOUT_ARCHITECTURE.md and INTERACTION_PATTERNS.md, deciding per component whether it is a Storyblok block, an app-level component or skipped, using the MUI decision table and the section catalogue. Use this skill whenever a component inventory, component library, design system structure, "which components do we need", block list, or reusable component plan is requested, and always before storyblok-schema runs. Do not use to write React code (builders do that from specs).
+name: "component-model"
+description: "Turn a research set (specs, behaviours, tokens) into a three-tier component library plan (tokens, developer primitives, editor blocks) with COMPONENT_INVENTORY.md, LAYOUT_ARCHITECTURE.md and INTERACTION_PATTERNS.md, deciding per component whether it is a Storyblok block, an app-level component or skipped, using the MUI decision table and the section catalogue. Use this skill whenever a component inventory, component library, design system structure, \"which components do we need\", block list, or reusable component plan is requested, and always before storyblok-schema runs. Do not use to write React code (builders do that from specs)."
 ---
 
 # component-model

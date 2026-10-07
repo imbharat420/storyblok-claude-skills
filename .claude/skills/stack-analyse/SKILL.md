@@ -1,6 +1,6 @@
 ---
-name: stack-analyse
-description: Identify the technical stack of a live site or a codebase (framework, rendering mode, CSS approach, state management, API pattern, CMS, font and image strategy, analytics, animation and scroll libraries, hosting/CDN) and map each item to the Dotsquares equivalent in a Next.js + Storyblok build. Use this skill whenever someone asks "what is this site built with", "what stack", "which CMS", "is this Next.js", when TECH_STACK_ANALYSIS.md must be written, or when a repository is being read for migration. Do not use to assess security posture of a third-party site (out of scope) or to probe endpoints.
+name: "stack-analyse"
+description: "Identify the technical stack of a live site or a codebase (framework, rendering mode, CSS approach, state management, API pattern, CMS, font and image strategy, analytics, animation and scroll libraries, hosting/CDN) and map each item to the Dotsquares equivalent in a Next.js + Storyblok build. Use this skill whenever someone asks \"what is this site built with\", \"what stack\", \"which CMS\", \"is this Next.js\", when TECH_STACK_ANALYSIS.md must be written, or when a repository is being read for migration. Do not use to assess security posture of a third-party site (out of scope) or to probe endpoints."
 ---
 
 # stack-analyse

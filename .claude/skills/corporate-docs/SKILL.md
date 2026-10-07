@@ -1,6 +1,6 @@
 ---
-name: corporate-docs
-description: Generate the fixed twelve-document project set (DESIGN.md, DESIGN_TOKENS.md, COMPONENT_INVENTORY.md, LAYOUT_ARCHITECTURE.md, INTERACTION_PATTERNS.md, TECH_STACK_ANALYSIS.md, SITE_MAP.md with Mermaid, STORYBLOK_SCHEMA.md, SUGGESTIONS.xlsx, ESTIMATE.xlsx/.md, RISK_REGISTER.md, PROJECT_REPORT.docx) from one source so formats never drift, in the house style (Arial, D9D9D9 headers, F2F2F2 alternating rows, thin black borders, no icons, no emoji, first sentence states the finding). Use this skill whenever a document, report, spec, runbook, workbook, deck or client deliverable is produced or updated, and whenever numbers appear in more than one file. Do not use for chat answers or for code comments.
+name: "corporate-docs"
+description: "Generate the fixed twelve-document project set (DESIGN.md, DESIGN_TOKENS.md, COMPONENT_INVENTORY.md, LAYOUT_ARCHITECTURE.md, INTERACTION_PATTERNS.md, TECH_STACK_ANALYSIS.md, SITE_MAP.md with Mermaid, STORYBLOK_SCHEMA.md, SUGGESTIONS.xlsx, ESTIMATE.xlsx/.md, RISK_REGISTER.md, PROJECT_REPORT.docx) from one source so formats never drift, in the house style (Arial, D9D9D9 headers, F2F2F2 alternating rows, thin black borders, no icons, no emoji, first sentence states the finding). Use this skill whenever a document, report, spec, runbook, workbook, deck or client deliverable is produced or updated, and whenever numbers appear in more than one file. Do not use for chat answers or for code comments."
 ---
 
 # corporate-docs

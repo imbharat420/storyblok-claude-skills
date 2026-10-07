@@ -1,6 +1,6 @@
 ---
-name: storyblok-i18n-restore
-description: Safe restore, merge and migration of Storyblok stories, datasources and dimensions across languages (default plus field-level __i18n__ and language-tree variants) from snapshots or backups, preserving _uid, translated_slugs, dimensions, alternates, parent_id and manual edits, with dry-run and diff before any write. Use this skill whenever restoring from backup, rolling back content, copying stories between spaces, fixing a datasource or dimension that was deleted, or writing any code that PUTs story content, especially when the words restore, snapshot, backup, rollback, localized, Danish, Norwegian, dimension, translated slug or deep merge appear. Do not use for schema changes (storyblok-schema) or plain reads (storyblok-core).
+name: "storyblok-i18n-restore"
+description: "Safe restore, merge and migration of Storyblok stories, datasources and dimensions across languages (default plus field-level __i18n__ and language-tree variants) from snapshots or backups, preserving _uid, translated_slugs, dimensions, alternates, parent_id and manual edits, with dry-run and diff before any write. Use this skill whenever restoring from backup, rolling back content, copying stories between spaces, fixing a datasource or dimension that was deleted, or writing any code that PUTs story content, especially when the words restore, snapshot, backup, rollback, localized, Danish, Norwegian, dimension, translated slug or deep merge appear. Do not use for schema changes (storyblok-schema) or plain reads (storyblok-core)."
 ---
 
 # storyblok-i18n-restore

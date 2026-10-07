@@ -1,6 +1,6 @@
 ---
-name: web-inspect
-description: Reverse-engineer a live website page into auditable research artefacts (screenshots per viewport, computed CSS per element, DOM structure, verbatim content, asset inventory, page topology, per-component spec files) using a browser tool. Use this skill whenever a URL is the input and the goal is to document, rebuild, migrate, estimate or improve a site, including "inspect this site", "reverse engineer", "what does this page use", "capture the design", "make a spec from this page", or any request that needs measured CSS values rather than estimates. Do not use for image-only inputs (use visual-extract), for repositories (use code-read), or when the client has not confirmed the right to inspect.
+name: "web-inspect"
+description: "Reverse-engineer a live website page into auditable research artefacts (screenshots per viewport, computed CSS per element, DOM structure, verbatim content, asset inventory, page topology, per-component spec files) using a browser tool. Use this skill whenever a URL is the input and the goal is to document, rebuild, migrate, estimate or improve a site, including \"inspect this site\", \"reverse engineer\", \"what does this page use\", \"capture the design\", \"make a spec from this page\", or any request that needs measured CSS values rather than estimates. Do not use for image-only inputs (use visual-extract), for repositories (use code-read), or when the client has not confirmed the right to inspect."
 ---
 
 # web-inspect

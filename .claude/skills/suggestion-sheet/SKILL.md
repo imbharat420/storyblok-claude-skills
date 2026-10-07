@@ -1,6 +1,6 @@
 ---
-name: suggestion-sheet
-description: Produce the improvement suggestion workbook (SUGGESTIONS.xlsx) for a site or project with tabs for UI, Functionality, Storyblok, SEO, Performance and Accessibility, one row per suggestion carrying observation with evidence path, recommendation, effort band, impact, dependency, falsification test, decision dropdown and owner. Use this skill whenever improvements, recommendations, audit findings, "what should we change", quick wins, a review of the current site, or a client-facing list of issues is requested, and at the end of every discovery run. Do not record suggestions without a measured observation and a falsification test; preferences are not suggestions.
+name: "suggestion-sheet"
+description: "Produce the improvement suggestion workbook (SUGGESTIONS.xlsx) for a site or project with tabs for UI, Functionality, Storyblok, SEO, Performance and Accessibility, one row per suggestion carrying observation with evidence path, recommendation, effort band, impact, dependency, falsification test, decision dropdown and owner. Use this skill whenever improvements, recommendations, audit findings, \"what should we change\", quick wins, a review of the current site, or a client-facing list of issues is requested, and at the end of every discovery run. Do not record suggestions without a measured observation and a falsification test; preferences are not suggestions."
 ---
 
 # suggestion-sheet

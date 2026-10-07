@@ -1,6 +1,6 @@
 ---
-name: estimate
-description: Produce a defensible effort estimate for a web or Storyblok project as arithmetic over counted items (tokens, primitives, static and interactive blocks, page templates, schema, seeding, languages, integrations, migrations, QA) with fixed phases and a confidence band that widens with unverified inputs, emitted as ESTIMATE.xlsx and ESTIMATE.md, plus a TCO line-item list without invented SaaS prices. Use this skill whenever hours, effort, timeline, sprint capacity, quote, budget, "how long will this take" or "how much work" is asked about any build, migration or redesign, and always after component-model completes. Do not use to produce a price without a rate card supplied by the user, and never to reassure: report "not estimable, discovery required" when inputs are missing.
+name: "estimate"
+description: "Produce a defensible effort estimate for a web or Storyblok project as arithmetic over counted items (tokens, primitives, static and interactive blocks, page templates, schema, seeding, languages, integrations, migrations, QA) with fixed phases and a confidence band that widens with unverified inputs, emitted as ESTIMATE.xlsx and ESTIMATE.md, plus a TCO line-item list without invented SaaS prices. Use this skill whenever hours, effort, timeline, sprint capacity, quote, budget, \"how long will this take\" or \"how much work\" is asked about any build, migration or redesign, and always after component-model completes. Do not use to produce a price without a rate card supplied by the user, and never to reassure: report \"not estimable, discovery required\" when inputs are missing."
 ---
 
 # estimate

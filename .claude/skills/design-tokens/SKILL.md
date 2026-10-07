@@ -1,6 +1,6 @@
 ---
-name: design-tokens
-description: Derive a semantic design token set (colour roles, type scale, spacing scale, radius, shadow, breakpoints, motion) from measured computed styles, from Figma variables, or from images (labelled estimated), and emit it as Tailwind v4 theme variables plus DESIGN_TOKENS.md with the raw-to-semantic mapping. Use this skill whenever tokens, theme, colours, typography scale, spacing scale, brand variables, dark mode variables or "design system foundations" are needed, including when a component inventory or Storyblok schema is about to be derived. Do not use to pick a new brand palette from taste; that is a design decision recorded at Gate A.
+name: "design-tokens"
+description: "Derive a semantic design token set (colour roles, type scale, spacing scale, radius, shadow, breakpoints, motion) from measured computed styles, from Figma variables, or from images (labelled estimated), and emit it as Tailwind v4 theme variables plus DESIGN_TOKENS.md with the raw-to-semantic mapping. Use this skill whenever tokens, theme, colours, typography scale, spacing scale, brand variables, dark mode variables or \"design system foundations\" are needed, including when a component inventory or Storyblok schema is about to be derived. Do not use to pick a new brand palette from taste; that is a design decision recorded at Gate A."
 ---
 
 # design-tokens
