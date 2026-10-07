@@ -1,0 +1,21 @@
+JSON.stringify({
+  next: { pages: !!window.__NEXT_DATA__, app: typeof self !== 'undefined' && !!self.__next_f, chunks: !!document.querySelector('script[src*="/_next/static"]') },
+  nuxt: !!window.__NUXT__, angular: document.querySelector('[ng-version]')?.getAttribute('ng-version') || false,
+  vue: !!document.querySelector('[data-v-]') || !!window.__VUE__, svelte: !!document.querySelector('[class*="svelte-"]'),
+  gatsby: !!window.___gatsby, astro: !!document.querySelector('astro-island'), remix: !!window.__remixContext,
+  wordpress: !!document.querySelector('link[href*="/wp-content/"],meta[name="generator"][content*="WordPress"]'),
+  webflow: !!document.querySelector('html[data-wf-site]'), shopify: !!window.Shopify, squarespace: !!window.Static?.SQUARESPACE_CONTEXT,
+  cms: { storyblok: !!document.querySelector('script[src*="storyblok"]') || !!window.StoryblokBridge, contentful: !!document.querySelector('[data-contentful-entry-id]'), sanity: !!document.querySelector('[data-sanity]') },
+  css: { tailwind: [...document.querySelectorAll('[class]')].slice(0, 400).filter(e => /\b(flex|grid|gap-\d|px-\d|text-\w+-\d{3}|bg-\w+-\d{3})\b/.test(e.className)).length,
+         cssModules: [...document.querySelectorAll('[class]')].slice(0, 400).filter(e => /_[a-z0-9]{5,}$/i.test(e.className.split(' ')[0])).length,
+         emotionOrStyled: !!document.querySelector('style[data-emotion],style[data-styled]') },
+  state: { redux: !!window.__REDUX_DEVTOOLS_EXTENSION__ || !!window.__REDUX_STATE__, apollo: !!window.__APOLLO_STATE__ },
+  animation: { gsap: !!window.gsap, framer: !!document.querySelector('[data-framer-name],[style*="transform: translateY"]'), lottie: !!window.lottie || !!document.querySelector('lottie-player') },
+  scroll: { lenis: !!document.querySelector('.lenis'), locomotive: !!document.querySelector('[data-scroll-container]') },
+  analytics: { gtm: !!document.querySelector('script[src*="googletagmanager"]'), ga4: !!window.gtag, hotjar: !!window.hj, meta: !!window.fbq, segment: !!window.analytics?.track },
+  images: { hosts: [...new Set([...document.images].map(i => { try { return new URL(i.currentSrc || i.src).host; } catch { return null; } }).filter(Boolean))],
+            srcsetShare: document.images.length ? [...document.images].filter(i => i.srcset).length / document.images.length : 0,
+            formats: [...new Set([...document.images].map(i => (i.currentSrc || i.src).split('?')[0].split('.').pop()).filter(f => f && f.length <= 5))] },
+  fonts: [...document.querySelectorAll('link[href*="fonts.googleapis"],link[href*="typekit"],link[href*="fonts.bunny"]')].map(l => l.href),
+  serviceWorker: !!navigator.serviceWorker?.controller
+}, null, 2);

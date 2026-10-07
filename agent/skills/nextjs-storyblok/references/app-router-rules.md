@@ -1,0 +1,13 @@
+# App Router rules (eval-tested patterns)
+- Default to server components; add `"use client"` only where hooks or browser APIs are needed; keep client components leaf-level.
+- `cookies()`, `headers()`, `draftMode()` are async in current Next; `await` them in server code.
+- `searchParams` and `params` are Promises in page props; `await` before use.
+- Metadata: export `metadata` or `generateMetadata` from server layouts/pages only; client metadata via a server parent.
+- Route handlers: `app/api/.../route.ts` exporting `GET`/`POST`; read raw body with `await req.text()` for HMAC checks before JSON parsing.
+- Server actions: `"use server"` files export only async functions.
+- `generateStaticParams` returns the param objects; combine with `dynamicParams`.
+- Parallel routes and intercepting routes only when the UI truly needs them; do not introduce for blocks.
+- `usePathname`/`useSearchParams` in client components only, wrapped in Suspense where they suspend.
+- OG images via `opengraph-image.tsx` with `ImageResponse`.
+- Never import server-only modules into client components; use `server-only` package to enforce.
+- SDK option: `@storyblok/react/rsc` with `storyblokInit({ accessToken, use: [apiPlugin], components })` at the root; this system defaults to direct fetch with tags for cache control.

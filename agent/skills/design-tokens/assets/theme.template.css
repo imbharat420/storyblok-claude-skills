@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@theme {
+  --color-background: <measured>;
+  --color-foreground: <measured>;
+  --color-primary: <measured>;
+  --color-primary-foreground: <measured>;
+  --color-secondary: <measured>;
+  --color-muted: <measured>;
+  --color-muted-foreground: <measured>;
+  --color-accent: <measured>;
+  --color-border: <measured>;
+  --color-ring: <measured>;
+  --color-destructive: <measured>;
+  --color-success: <measured>;
+  --color-warning: <measured>;
+  --font-sans: <measured>, ui-sans-serif, system-ui, sans-serif;
+  --font-heading: <measured>, var(--font-sans);
+  --radius-sm: <measured>; --radius-md: <measured>; --radius-lg: <measured>; --radius-xl: <measured>;
+  --shadow-sm: <measured>; --shadow-md: <measured>; --shadow-lg: <measured>; --shadow-overlay: <measured>;
+  --breakpoint-sm: 640px; --breakpoint-md: 768px; --breakpoint-lg: 1024px; --breakpoint-xl: 1280px; --breakpoint-2xl: 1536px;
+  --duration-fast: 150ms; --duration-base: 300ms; --duration-slow: 500ms;
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+}
+:root:not([data-theme="light"]) { @media (prefers-color-scheme: dark) { /* dark overrides only if source has dark mode */ } }
+:root[data-theme="dark"] { /* --color-background: <measured-dark>; ... */ }

@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "skills": {
+    "behaviour-sweep": {
+      "source": "imbharat420/storyblok-claude-skills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/behaviour-sweep/SKILL.md",
+      "computedHash": "5ae66ee91c8ca8f9aca40c642c0ae72600b6ef71a7979cc25cb4096be7334d1b"
+    },
+    "component-model": {
+      "source": "imbharat420/storyblok-claude-skills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/component-model/SKILL.md",
+      "computedHash": "501aff6fcab32730cc84d9254dd0f65e6a09e8983d56f21f99c95e9ea9b4543e"
+    },
+    "corporate-docs": {
+      "source": "imbharat420/storyblok-claude-skills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/corporate-docs/SKILL.md",
+      "computedHash": "b2d4342013f8eb5f39bd74d036edf81ca2b7aeaabf826e83f81f6877354e0547"
+    },
+    "design-tokens": {
+      "source": "imbharat420/storyblok-claude-skills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/design-tokens/SKILL.md",
+      "computedHash": "073c8c1f41001b123d3855256611d14171ed5330365d77abfebcef7028678aa4"
+    },
+    "estimate": {
+      "source": "imbharat420/storyblok-claude-skills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/estimate/SKILL.md",
+      "computedHash": "495ca6987da66b6aaf2f8e64c440906eb0854716bf0cfe7d08ef6347b60b2838"
+    },
+    "nextjs-storyblok": {
+      "source": "imbharat420/storyblok-claude-skills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/nextjs-storyblok/SKILL.md",
+      "computedHash": "c44ec581a20721cb95e5eb1571122ef060bf9a2ea2cf546560d5d8b971cd8f59"
+    },
+    "risk-and-compliance": {
+      "source": "imbharat420/storyblok-claude-skills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/risk-and-compliance/SKILL.md",
+      "computedHash": "c3547fa7b4dc878db82f25904d8e3c13b931330daa484de797718fe22c5ac38d"
+    },
+    "seo-baseline": {
+      "source": "imbharat420/storyblok-claude-skills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/seo-baseline/SKILL.md",
+      "computedHash": "134afae9ffc74b27458bf534e0f31bbc557e9d4a901f99ba8f0d3d6e8f1866dc"
+    },
+    "stack-analyse": {
+      "source": "imbharat420/storyblok-claude-skills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/stack-analyse/SKILL.md",
+      "computedHash": "3445f43dfa8aaf757aca17ae9c2ebd1b327b5559ede9485c95c4ad166f6f4db6"
+    },
+    "storyblok-core": {
+      "source": "imbharat420/storyblok-claude-skills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/storyblok-core/SKILL.md",
+      "computedHash": "7607116d4aec30e21ef110ba3afc05884deec2ad0b82a345f56f44a988c5a029"
+    },
+    "storyblok-editor-ux": {
+      "source": "imbharat420/storyblok-claude-skills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/storyblok-editor-ux/SKILL.md",
+      "computedHash": "ecaf46339943386c015be0076777628ea42fae9ab22431dcf148aeb3a0e06f34"
+    },
+    "storyblok-field-plugins": {
+      "source": "imbharat420/storyblok-claude-skills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/storyblok-field-plugins/SKILL.md",
+      "computedHash": "3edbc4bc01daa78bae806fb9513cee05606b5cd3383e2230f5a03943b04b145f"
+    },
+    "storyblok-i18n-restore": {
+      "source": "imbharat420/storyblok-claude-skills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/storyblok-i18n-restore/SKILL.md",
+      "computedHash": "939eb5e4c078beed2dbf711933b203be394955b5da41d347bd0b3426504bd650"
+    },
+    "storyblok-multisite": {
+      "source": "imbharat420/storyblok-claude-skills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/storyblok-multisite/SKILL.md",
+      "computedHash": "bed002ff6d0ce6c491ce4897dd9a32aa8dbd097b260b6937732789eb8e3f8bb7"
+    },
+    "storyblok-schema": {
+      "source": "imbharat420/storyblok-claude-skills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/storyblok-schema/SKILL.md",
+      "computedHash": "a0d9b5c9ec735d79566d6fb04b01702d740fe0e1ec359dd103d27158d5ed9840"
+    },
+    "suggestion-sheet": {
+      "source": "imbharat420/storyblok-claude-skills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/suggestion-sheet/SKILL.md",
+      "computedHash": "4f28241cd1858dd0ba13354e6287c274a53d3447f961d8d5bd663005d01e311c"
+    },
+    "web-inspect": {
+      "source": "imbharat420/storyblok-claude-skills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/web-inspect/SKILL.md",
+      "computedHash": "6006e0a3eb762613df8f1add4f48a3ae06e9ad48bf731bf544df3f383223ca53"
+    }
+  }
+}

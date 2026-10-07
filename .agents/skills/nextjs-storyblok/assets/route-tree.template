@@ -1,0 +1,19 @@
+apps/web/
+  middleware.ts                       host+path -> site rewrite
+  sites.config.ts                     site registry (brand, market, folder, spaceId, languages)
+  app/
+    layout.tsx                        fonts (next/font), theme attr, no bridge
+    (site)/_sites/[site]/[[...slug]]/page.tsx     published tree
+    preview/[site]/[[...slug]]/page.tsx           draft tree, bridge, noindex
+    api/revalidate/route.ts           HMAC verify -> revalidateTag
+    api/draft/route.ts  api/exit-draft/route.ts
+    sitemap.ts  robots.ts  opengraph-image.tsx
+  components/
+    blocks/registry.ts                block name -> component
+    blocks/sections.tsx  elements.tsx  media.tsx
+    primitives/                       Text Button Image Card ... (tokens only)
+    shell/SiteShell.tsx Navbar Footer  from site_config
+  lib/storyblok/
+    cda.ts (fetch with tags, pagination), image-loader.ts, richtext.tsx, draft.ts
+  styles/globals.css                  @theme tokens
+packages/schema/  packages/themes/  packages/seed/
